@@ -1,0 +1,34 @@
+@import "../global/color";
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+  padding: 25px 40px 25px 50px;
+
+  h3 {
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+
+    li {
+      font-weight: 600;
+
+      a {
+        text-decoration: none;
+        color: $title-color;
+
+        &:hover {
+          color: $text-and-hover-color;
+        }
+      }
+    }
+  }
+}
