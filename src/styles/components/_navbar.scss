@@ -1,4 +1,4 @@
-@import "../global/color";
+@use "../global/color" as *;
 
 nav {
   display: flex;
