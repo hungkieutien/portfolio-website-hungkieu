@@ -28,7 +28,69 @@ nav {
         &:hover {
           color: $text-and-hover-color;
         }
+
+        @media (max-width: 900px) {
+          display: none;
+        }
       }
+    }
+  }
+}
+
+.mobile-menu {
+  font-size: 2.3rem;
+  cursor: pointer;
+  display: none;
+
+  @media (max-width: 900px) {
+    display: block;
+  }
+}
+
+.close-menu {
+  left: -1000px !important;
+}
+
+.burger-menu {
+
+  @media (min-width: 900px) {
+    display: none;
+  }
+
+  span {
+    position: absolute;
+    font-size: 3.3rem;
+    top: 5px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  display: flex;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  z-index: 300;
+  justify-content: center;
+  align-items: center;
+  transition: all .6s ease;
+
+  ul {
+    list-style: none;
+    font-weight: 600;
+    font-size: 25px;
+
+    li {
+      margin-bottom: 35px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $title-color;
     }
   }
 }

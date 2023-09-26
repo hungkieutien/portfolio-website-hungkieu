@@ -1,0 +1,69 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+  position: relative;
+}
+
+.hero {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.hero-main {
+  align-items: center;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hero-text {
+  h1 {
+    color: #2d2e32;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.hero-img {
+  img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 30px;
+    border: 1px solid;
+  }
+}
+
+.skills {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  align-items: center;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 20px;
+    border-right: 1px solid;
+  }
+}
+
+.logos {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    list-style: none;
+  }
+}
