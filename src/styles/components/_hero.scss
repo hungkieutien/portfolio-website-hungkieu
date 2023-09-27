@@ -1,12 +1,13 @@
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 35rem;
-  position: relative;
-}
+@use "../global/color" as *;
+
 
 .hero {
+
+  @media (max-width: 900px) {
+    height: auto;
+    padding: 4rem 0;
+  }
+
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
@@ -15,7 +16,28 @@
   width: 100%;
 }
 
+.content {
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    height: auto;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+  position: relative;
+}
+
 .hero-main {
+
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 1rem;
+  }
+
   align-items: center;
   display: flex;
   gap: 5rem;
@@ -29,13 +51,42 @@
     color: #2d2e32;
     font-size: 4.5rem;
     line-height: 1.2;
-    margin-bottom: 2rem;
+    margin-bottom: 25px;
     margin-top: 2rem;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  span {
+
+    @media (max-width: 900px) {
+      justify-content: center;
+    }
+
+    display: flex;
+    gap: 10px;
+
+    a {
+      color: $title-color;
+    }
   }
 }
 
 .hero-img {
   img {
+
+    @media (max-width: 650px) {
+      height: 15rem;
+      width: 15rem;
+    }
+
+    @media (max-width: 500px) {
+      height: 12rem;
+      width: 12rem;
+    }
+
     height: 20rem;
     width: 20rem;
     border-radius: 30px;
@@ -44,6 +95,13 @@
 }
 
 .skills {
+
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    position: static;
+  }
+
   display: flex;
   position: absolute;
   bottom: 0;
@@ -52,6 +110,14 @@
   align-items: center;
 
   p {
+
+    @media (max-width: 900px) {
+      border-bottom: 1px solid;
+      padding-bottom: 15px;
+      padding-right: 0;
+      border-right: 0;
+    }
+
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 20px;
@@ -61,6 +127,12 @@
 
 .logos {
   ul {
+
+    @media (max-width: 900px) {
+      justify-content: center;
+      padding-inline-start: 0;
+    }
+
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
