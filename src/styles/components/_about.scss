@@ -1,0 +1,50 @@
+@use "../global/color" as *;
+
+.about {
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.about-content {
+
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 4rem;
+
+  .about-img {
+    img {
+
+      @media (max-width: 800px) {
+        width: 20rem;
+        height: 10rem;
+      }
+
+      width: 30rem;
+      height: 20rem;
+      border-radius: 20px;
+    }
+  }
+
+  .about-text {
+    @media (max-width: 1020px) {
+
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: $title-color;
+      font-size: 42px;
+      line-height: 1.38em;
+      font-weight: 700;
+    }
+  }
+}
