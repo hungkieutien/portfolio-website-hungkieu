@@ -11,22 +11,27 @@ function Hero() {
                     <div className="content">
                         <div className="hero-main">
                             <div className="hero-text">
-                                <h1>Hi, I'm Hung.</h1>
-                                <p>An awesome react developer in the making based in Würzburg, Germany.</p>
+                                <h1>Hi, I'm Hung</h1>
+                                <p>ambitious react developer in the making - headed out on the road to mastery based in
+                                    Würzburg, Germany. 📍
+                                    <br/><br/>
+                                    As a lifelong learner I love to explore and create new things. 🎓 And I really have a
+                                    thing for Phở. 🍜
+                                </p>
                                 <span>
-                            <a
-                                aria-label="linkedin"
-                                rel="noreferrer"
-                                target="_blank"
-                                href="https://www.linkedin.com/in/hung-kieu-tien/">
-                                <IconBrandLinkedin width={32} height={32}/>
-                            </a>
                             <a
                                 aria-label="github"
                                 rel="noreferrer"
                                 target="_blank"
                                 href="https://github.com/hungkieutien">
                                 <IconBrandGithub width={32} height={32}/>
+                            </a>
+                            <a
+                                aria-label="linkedin"
+                                rel="noreferrer"
+                                target="_blank"
+                                href="https://www.linkedin.com/in/hung-kieu-tien/">
+                                <IconBrandLinkedin width={32} height={32}/>
                             </a>
                         </span>
                             </div>

@@ -7,8 +7,8 @@ function Projects() {
             <section id="projects" className="projects">
                 <div className="container">
                     <div className="project-content">
-                        <p>portfolio</p>
-                        <h3>Each project is a unique piece of development 🧩</h3>
+                        <h2>Projects</h2>
+                        <span>Hier kommen die Projekte nei.</span>
                     </div>
                 </div>
             </section>

@@ -1,2 +1,89 @@
 @use "../global/color" as *;
 
+.contact {
+  background-color: $background-color-sections-white;
+  padding: 6rem 0;
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+
+    .contact-title {
+      @media (max-width: 750px) {
+        text-align: center;
+      }
+
+      h2 {
+        @media (max-width: 750px) {
+          margin-bottom: 30px;
+        }
+
+        margin-top: 0;
+        margin-bottom: 16px;
+        color: $text-hover-icon-color;
+        font-size: 30px;
+        line-height: 1.38em;
+        font-weight: 700;
+      }
+    }
+
+    .contact-icons {
+      @media (max-width: 750px) {
+        flex-direction: column;
+        gap: 3rem;
+      }
+
+      display: flex;
+      gap: 5rem;
+
+      .contact-icon-box {
+        @media (max-width: 750px) {
+          flex-direction: column;
+        }
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+
+        span {
+          align-items: center;
+          background-color: #fff;
+          border-radius: 50%;
+          box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+          color: $text-hover-icon-color;
+          display: flex;
+          height: 3rem;
+          justify-content: center;
+          width: 3rem;
+        }
+
+        .contact-info {
+          @media (max-width: 750px) {
+            text-align: center;
+          }
+
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          justify-content: center;
+
+          h3 {
+            margin: 0;
+            font-size: 15px;
+          }
+
+          p {
+            cursor: pointer;
+            margin: 0;
+            color: #767676;
+
+            &:hover {
+              color: $text-hover-icon-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
