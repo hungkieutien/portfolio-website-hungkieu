@@ -1,2 +1,47 @@
 @use "../global/color" as *;
 
+footer {
+  background-color: #1e2749;
+  width: 100%;
+  padding: 5rem 0;
+
+  .footer-wrap {
+    @media (max-width: 575px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+
+      @media (max-width: 480px) {
+        font-size: 12px;
+      }
+
+      color: $background-color-sections-white;
+      display: flex;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      align-items: center;
+
+      span {
+        display: flex;
+        gap: 0.6rem;
+
+        a {
+          color: $background-color-sections-white;
+
+          &:hover {
+            color: $text-hover-icon-color;
+          }
+        }
+      }
+    }
+  }
+}
