@@ -8,6 +8,10 @@ body {
 }
 
 .container {
+  @media (max-width: 550px) {
+    padding: 0 1rem;
+  }
+
   max-width: 60rem;
   margin: 0 auto;
   padding: 0 4rem;

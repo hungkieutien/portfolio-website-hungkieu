@@ -8,7 +8,7 @@ function Footer() {
             <footer>
                 <div className="container">
                     <div className="footer-wrap">
-                        <h3>Copyright © 2023, Built by Hung Kieu</h3>
+                        <h3>Copyright © 2023</h3>
                         <div className="footer-links">
                             <span>
                             <a

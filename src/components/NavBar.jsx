@@ -7,22 +7,35 @@ function NavBar() {
 
     const [burgerMenu, setBurgerMenu] = useState(false);
 
-    const links = [{
-        name: 'Home', anchor: '#home'
-    }, {
-        name: 'About', anchor: '#about'
-    }, {
-        name: 'Projects', anchor: '#projects'
-    }, {
-        name: 'Contact', anchor: '#contact'
-    },]
+    const links = [
+        {
+            id: "l1",
+            name: 'Home',
+            anchor: '#home'
+        },
+        {
+            id: "l2",
+            name: 'About',
+            anchor: '#about'
+        },
+        {
+            id: "l3",
+            name: 'Projects',
+            anchor: '#projects'
+        },
+        {
+            id: "l4",
+            name: 'Contact',
+            anchor: '#contact'
+        },
+    ]
 
     return (
         <>
             <nav>
-                <h3>Hung Kieu</h3>
+                <h3>Hung Kieu<span></span></h3>
                 <ul>
-                    {links.map(link => (<li><a href={link.anchor}>{link.name}</a></li>))}
+                    {links.map(link => (<li key={link.id}><a href={link.anchor}>{link.name}</a></li>))}
                     <li onClick={() => setBurgerMenu(true)}><IconMenu2 className="mobile-menu" width={32}
                                                                        height={32}></IconMenu2></li>
                 </ul>
@@ -31,7 +44,8 @@ function NavBar() {
                 <span onClick={() => setBurgerMenu(false)}><IconX width={30} height={30}></IconX></span>
                 <ul>
                     {links.map(link => (
-                        <li><a onClick={() => setBurgerMenu(false)} href={link.anchor}>{link.name}</a></li>))}
+                        <li key={link.id}><a onClick={() => setBurgerMenu(false)} href={link.anchor}>{link.name}</a>
+                        </li>))}
                 </ul>
             </div>
         </>);
