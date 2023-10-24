@@ -15,13 +15,12 @@ export default function Projects() {
                                 title="Phosure"
                                 img={Phosure}
                                 date="(October 2023)"
-                                description="With a focus on simplicity and clean design, this site prioritize user
-                                experience, making it easy for customers to get informations from a restauran and book
+                                description="With a focus on simplicity and clean design, making it easy for customers to get informations from a restaurant and book
                                 a reservation."
                                 techno1="React"
                                 techno2="SCSS"
                                 code="https://github.com/hungkieutien/phosure"
-                                demo="https://car-rental-ten.vercel.app/"
+                                demo="https://phosure.vercel.app/"
                                 scrollY="-83%"
                             />
                         </div>
