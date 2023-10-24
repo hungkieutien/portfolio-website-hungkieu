@@ -41,8 +41,13 @@
         }
 
         @media (max-width: 550px) {
-          width: 20rem;
-          height: 10rem;
+          width: 22.3rem;
+          height: 12rem;
+        }
+
+        @media (max-width: 495px) {
+          width: 20.3rem;
+          height: 11rem;
         }
 
         width: 25rem;
@@ -64,6 +69,7 @@
         flex-wrap: wrap;
         list-style: none;
         padding: 0;
+        justify-content: center;
 
         li {
           background: $footer-text-hover-icon-color;

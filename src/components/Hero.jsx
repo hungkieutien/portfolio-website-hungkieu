@@ -6,15 +6,12 @@ import hero_img from "../images/hung_kieu.png"
 function Hero() {
 
     function markWord(text, color) {
-
         return (
             <RoughNotation type="highlight" color={color} show={true}>
                 <span className="hero-words-nowrap"> {text}</span>
             </RoughNotation>
         );
     }
-
-    // #E8F5E9
 
     return (
         <>
@@ -32,7 +29,8 @@ function Hero() {
                                     During my studies I learned the basics
                                     of {markWord("front-end", "#E8F5E9")} and {markWord("back-end web development.", "#FFEBEE")} Currently
                                     I'm dedicated to {markWord("learn React", "#E3F2FD")} to take
-                                    my web development skills to the next level.
+                                    my web development skills to the next level. For this reason, I am currently working
+                                    very intensively with React privately and building up a portfolio in parallel.
                                     <br/><br/>
                                     Through my {markWord("work experiences", "#E3F2FD")} in the
                                     last {markWord("four years", "#E8F5E9")}, I

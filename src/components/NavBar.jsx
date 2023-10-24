@@ -15,8 +15,8 @@ function NavBar() {
         },
         {
             id: "l2",
-            name: 'About',
-            anchor: '#about'
+            name: 'Tech Stack',
+            anchor: '#skill'
         },
         {
             id: "l3",

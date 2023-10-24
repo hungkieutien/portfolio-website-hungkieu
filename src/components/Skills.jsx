@@ -8,7 +8,7 @@ function Skills() {
             <section id="skill" className="skill">
                 <div className="container">
                     <div className="skill-content">
-                        <h2>Skills</h2>
+                        <h2>Tech Stack</h2>
                         <div className="skill-group">
                             <div className="skill-img">
                                 <img
