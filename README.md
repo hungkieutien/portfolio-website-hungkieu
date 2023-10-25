@@ -1,6 +1,6 @@
 <h2>About the project</h2>
 
-  <p>A Restaurant Website with a focus on simplicity and clean design, making it easy for customers to get informations from a restaurant and book a reservation.</p>
+  <p>A personal portfolio website built with React.</p>
 
 Live Demo: <a href='https://hungkieutien.vercel.app/'>Live Demo</a>
 
