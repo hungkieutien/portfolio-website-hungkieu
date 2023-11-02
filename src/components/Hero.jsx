@@ -7,7 +7,7 @@ function Hero() {
 
     function markWord(text, color) {
         return (
-            <RoughNotation type="highlight" color={color} show={true}>
+            <RoughNotation type="highlight" color={color} show={true} iterations={1} animationDuration={2000}>
                 <span className="hero-words-nowrap"> {text}</span>
             </RoughNotation>
         );
