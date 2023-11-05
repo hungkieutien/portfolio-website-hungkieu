@@ -6,8 +6,7 @@ import Section from "./Section";
 function Skills() {
     return (
         <>
-            <Section id="skill" className="skill" mode="skill">
-                <h2>Tech Stack</h2>
+            <Section id="skill" className="skill" mode="skill" title="Tech Stack">
                 <div className="skill-group">
                     <div className="skill-img">
                         <img

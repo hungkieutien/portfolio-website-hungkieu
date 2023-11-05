@@ -8,24 +8,20 @@
     display: flex;
     flex-direction: column;
 
-    .contact-title {
+    h2 {
       @media (max-width: 750px) {
+        margin-bottom: 30px;
         text-align: center;
       }
 
-      h2 {
-        @media (max-width: 750px) {
-          margin-bottom: 30px;
-        }
-
-        margin-top: 0;
-        margin-bottom: 2rem;
-        color: $text-hover-icon-color;
-        font-size: 30px;
-        line-height: 1.38em;
-        font-weight: 700;
-      }
+      margin-top: 0;
+      margin-bottom: 2rem;
+      color: $text-hover-icon-color;
+      font-size: 30px;
+      line-height: 1.38em;
+      font-weight: 700;
     }
+
 
     .contact-icons {
       @media (max-width: 750px) {
