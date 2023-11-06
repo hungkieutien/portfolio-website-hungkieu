@@ -19,7 +19,7 @@ export default function Projects() {
                         techno2="SCSS"
                         code="https://github.com/hungkieutien/phosure"
                         demo="https://phosure.vercel.app/"
-                        scrollY="-83%"
+                        scrollY="-78%"
                     />
                 </div>
             </Section>
