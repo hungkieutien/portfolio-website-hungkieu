@@ -41,9 +41,6 @@ function Hero() {
                                 {markWord("front-end development.", "#E8F5E9")} This versatility allows
                                 me to work effectively at different stages of a project's development and ensure
                                 that the final products are both functional and aesthetically pleasing.
-                                <br/><br/>
-                                I'm currently looking for a new role as a developer with a focus
-                                on {markWord("React.", "#E3F2FD")}
                             </p>
                             <div className="btn-group">
                                 <a
