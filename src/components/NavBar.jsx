@@ -20,11 +20,16 @@ function NavBar() {
         },
         {
             id: "l3",
+            name: 'Experience',
+            anchor: '#experience'
+        },
+        {
+            id: "l4",
             name: 'Projects',
             anchor: '#projects'
         },
         {
-            id: "l4",
+            id: "l5",
             name: 'Contact',
             anchor: '#contact'
         },

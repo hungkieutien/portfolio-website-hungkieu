@@ -1,7 +1,7 @@
 @use "../global/color" as *;
 
 .contact {
-  background-color: $background-color-sections-white;
+  background-color: $background-color-sections;
   padding: 6rem 0;
 
   .contact-content {
@@ -44,7 +44,7 @@
 
         span {
           align-items: center;
-          background-color: #fff;
+          background-color: $background-color-sections;
           border-radius: 50%;
           box-shadow: 0 0 8px rgba(0, 0, 0, .1);
           color: $text-hover-icon-color;

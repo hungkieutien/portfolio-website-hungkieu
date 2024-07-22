@@ -1,0 +1,66 @@
+@use "../global/color" as *;
+
+.experiences-container {
+  background-color: $background-color-sections;
+  padding: 4rem 0 3rem 0;
+}
+
+.experience-content {
+  h2 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: $text-hover-icon-color;
+    font-size: 30px;
+    line-height: 1.2rem;
+    font-weight: 700;
+  }
+}
+
+.experiences {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience {
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+}
+
+.experience-company-time {
+  display: flex;
+  justify-content: space-between;
+
+  .experience-company {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .experience-time {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    color: #767676;
+    font-size: 13px;
+  }
+}
+
+.experience-role {
+  font-weight: 400;
+}
+
+.experience-description {
+  color: #767676;
+}
+
+@media (max-width: 800px) {
+  .experience-company-time {
+    flex-direction: column-reverse;
+  }
+}

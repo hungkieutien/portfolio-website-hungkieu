@@ -1,7 +1,7 @@
 @use "../global/color" as *;
 
 .projects {
-  background: $background-color-sections;
+  background: $background-color-sections-white;
   padding: 4rem 0 3rem 0;
 
   .container {
@@ -110,7 +110,7 @@
             gap: 1rem;
 
             p {
-              background-color: #fdf8f0;
+              background-color: $background-color-sections-white;
               box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
               color: #000;
               font-weight: 700;
