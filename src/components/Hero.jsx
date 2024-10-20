@@ -1,18 +1,9 @@
 import React from "react";
 import "../styles/components/_hero.scss";
-import {RoughNotation} from "react-rough-notation";
 import hero_img from "../images/hung_kieu.png"
 import Section from "./Section";
 
 function Hero() {
-
-    function markWord(text, color) {
-        return (
-            <RoughNotation type="highlight" color={color} show={true} iterations={1} animationDuration={2000}>
-                <span className="hero-words-nowrap"> {text}</span>
-            </RoughNotation>
-        );
-    }
 
     return (
         <>
@@ -20,27 +11,22 @@ function Hero() {
                 <div className="content">
                     <div className="hero-main">
                         <div className="hero-text">
-                            <h1>Hello! I'm Hung, a {markWord("developer", "#E3F2FD")} based
+                            <h1>Hello! I'm Hung, a developer based
                                 in Würzburg, Germany.</h1>
                             <p>
-                                I love building tools that
-                                are {markWord("user-friendly,", "#E8F5E9")} {markWord("simple", "#E3F2FD")} and {markWord("minimalistic.", "#FFEBEE")}
-                                <br/>
-                                During my studies I learned the basics
-                                of {markWord("front-end", "#E8F5E9")} and {markWord("back-end web development.", "#FFEBEE")} Currently
-                                I'm dedicated to {markWord("learn React", "#E3F2FD")} to take
-                                my web development skills to the next level. For this reason, I am currently working
-                                very intensively with React privately and building up a portfolio in parallel.
+                                I am passionate about building user-friendly, simple, and minimalistic tools.
+                                Throughout my studies, I developed a strong foundation in both front-end and back-end
+                                web development. Currently, I am focused on expanding my expertise by working on a
+                                personal project to build an e-commerce shop, utilizing a modern tech stack:
+                                Nuxt 3 (with TypeScript), NestJS, Prisma, PostgreSQL, GraphQL, and JWT for authentication.
+                                While the project is still in its early stages, it plays a crucial role in helping me
+                                build a new skill set and further develop my portfolio.
                                 <br/><br/>
-                                Through my {markWord("work experiences", "#E3F2FD")} in the
-                                last {markWord("four years", "#E8F5E9")}, I
-                                had the opportunity to work with cross-functional teams and different
-                                technologies. Although {markWord("back-end development", "#FFEBEE")} has
-                                been my {markWord("main area", "#FFEBEE")} over the past time, I wanted
-                                to {markWord("expand my skills", "#E8F5E9")} in the
-                                {markWord("front-end development.", "#E8F5E9")} This versatility allows
-                                me to work effectively at different stages of a project's development and ensure
-                                that the final products are both functional and aesthetically pleasing.
+                                Over the past five years, I’ve worked with cross-functional teams and diverse
+                                technologies. While I initially specialized in back-end development, I’ve expanded my
+                                skill set to include front-end development as well. This versatility enables me to
+                                contribute effectively across different phases of a project, ensuring that the final
+                                product is both functional and aesthetically pleasing.
                             </p>
                             <div className="btn-group">
                                 <a
